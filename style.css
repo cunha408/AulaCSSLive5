@@ -1,0 +1,49 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(black-texture.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+
+h1{
+    font-size: 40px;
+    color: blue;
+    margin: 20px;
+    
+}
+a{
+    color: blue;
+    text-decoration: none;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 40px;
+    text-align: center;
+}
